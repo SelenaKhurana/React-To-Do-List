@@ -32,7 +32,6 @@ function App(){
   return(
       <div className = "app">
         <div className="todo-list">
-          <Help className = "help" />
           {todos.map((todo, i) =>
             <Todo index = {i} key = {i} todo = {todo} remove = {removeTodo} />)}
           <TodoForm addTodo = {addTodo}/>
