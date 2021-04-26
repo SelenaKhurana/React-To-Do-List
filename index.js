@@ -1,19 +1,19 @@
 function App(){
   const [todos, setTodos] = React.useState([
     {
-      text: 'learn react',
+      text: 'get coffee',
       isCompleted: false,
     },
     {
-      text: 'meet friend for lunch',
+      text: 'go to the gym',
       isCompleted: false,
     },
     {
-      text: 'build todo app',
+      text: 'learn how to build react apps',
       isCompleted: false,
     },
     {
-      text: 'clean my pits',
+      text: 'feed my cat',
       isCompleted: false,        
     },
   ]);
